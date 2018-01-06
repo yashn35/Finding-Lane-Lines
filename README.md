@@ -21,9 +21,15 @@ For this project, a great writeup should provide a detailed response to the "Ref
 
 1. Describe the pipeline
 
+In this pipeline I use a grayscale, canny edge detection, gaussian_blur, and region_of_interest.  
+
 2. Identify any shortcomings
 
+Currently I need some feedback on how to create the pipeline that is in place for video proccesing. 
+
 3. Suggest possible improvements
+
+These is a majore imporvement that I need to make is for the image proccesing, to be applied for video proccesing. 
 
 We encourage using images in your writeup to demonstrate how your pipeline works.  
 
