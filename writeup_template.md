@@ -23,11 +23,7 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+In this pipeline I use a grayscale, canny edge detection, gaussian_blur, and region_of_interest. This block of code for the pipeline would be on the top. 
 
 ![alt text][image1]
 
@@ -35,13 +31,10 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+Currently I need some feedback on how to create the pipeline that is in place for video proccesing. 
 
-Another shortcoming could be ...
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+These is a major imporvement that I need to make is for the image proccesing, to be applied for video proccesing. I would like some feedback and help on how would I exactly make the video part (Note: I already have the image processing part)
